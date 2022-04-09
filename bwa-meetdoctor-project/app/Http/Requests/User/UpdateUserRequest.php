@@ -3,11 +3,11 @@
 namespace App\Http\Requests\User;
 
 use App\Models\User;
-//use Gate;
+// use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;
 
-// This rule only at update request
+// this rule only at update request
 use Illuminate\Validation\Rule;
 
 class UpdateUserRequest extends FormRequest
@@ -19,7 +19,7 @@ class UpdateUserRequest extends FormRequest
      */
     public function authorize()
     {
-        // create middleware from kernel at here
+        // create middleware from Kernel at here
         return true;
     }
 

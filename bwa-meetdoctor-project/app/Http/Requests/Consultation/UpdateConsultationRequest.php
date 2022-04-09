@@ -3,12 +3,13 @@
 namespace App\Http\Requests\Consultation;
 
 use App\Models\MasterData\Consultation;
-//use Gate;
+// use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;
 
-//this rule only at update request
+// this rule only at update request
 use Illuminate\Validation\Rule;
+
 class UpdateConsultationRequest extends FormRequest
 {
     /**
